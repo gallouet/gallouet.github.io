@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Thomas Gallouët - Page personnelle</title>	
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+<div id="page">
+
+<div id="header">
+<h1>Thomas Gallouët</h1>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="#">Page Personnelle</a></li>
+</ul>
+</div>
+
+<div id="content">
+
+<h2></h2>
+<div style="float: left; padding: 0px 0px 0px 0px;"> 
+<p>
+Je suis actuellement post-doctorant à l'université libre de Bruxelles sous la direction d<a href="http://homepages.ulb.ac.be/~agloria/">'Antoine Gloria</a>. Je suis également membre de l'équipe Mephysto à l'<a href="http://www.inria.fr/centre/lille">INRIA de Lille</a>.<br />
+</a>
+Auparavant j'ai effectué un post-doctorat avec <a href="http://math.univ-lille1.fr/~chainais/Site_de_Claire_Chainais/Accueil.html">Claire Chainais-Hillairet</a>, également au sein de l'équipe Mephysto, sur des problèmes de corrosion. Le post-doctorat était financé par l'<a href="http://www.andra.fr/">ANDRA</a> et localisé à Inria Lille. J'ai réalisée ma
+<a href="These_TG_pageweb.pdf">thèse</a> à l'<a href="http://www.umpa.ens-lyon.fr/">UMPA</a> (ENS Lyon) sous la direction de <a href="http://math.univ-lyon1.fr/~villani/">Cédric Villani</a> et avec comme sujet principal le transport optimal. Cliquez <a href="CV_Gallouet.pdf"> ici pour mon C.V.</a>
+</p>
+
+<br />
+
+<p>
+<b>Contact :</b></p>
+<br />
+<p>
+Département de mathématique <br />
+Faculté des sciences, CP 214  <br />
+Université Libre de Bruxelles  <br />
+boulevard du Triomphe  <br />
+1050 Brussels, Belgium<br />
+</p>
+<br />
+<p>
+<em>Courriel:</em> thomas.gallouet [at] ulb.ac.be
+</p>
+
+<br />
+
+<a name="recherche"></a>
+<hr noshade> 
+<br />
+<h2>Recherche</h2>
+<a name="rech-regularite"></a>
+<br />
+
+<p>
+<b>Corrosion</b><br />
+L'objet de ce post-doctorat était l'étude d'un modèle de corrosion, appelé DPCM, introduit par C. Bataillon, et al. dans <a href="FINAL_dpcm_acta_10.pdf"> Corrosion modelling of iron based alloy in nuclear waste repository, Electrochim. Acta (2010)</a>. La particularité de ce modèle réside dans le couplage entre 
+les espèces présentes, le potentiel electrochimique et le déplacement des interfaces de la couche de corrosion. Le modèle à été introduit dans le cadre de l'étude du stockage des déchets nucléaires en profondeur effectuée par l'<a href="http://www.andra.fr/">ANDRA</a>. Une première étude mathématique ainsi qu'un schéma numérique (dont l'implémentation en FORTRAN est nommé CALIPSO) permettant la résolution de DPCM ont été réalisé par C. Bataillon et al. dans <a href="JCPpublished.pdf"> Numerical methods for the simulation of a corrosion model with moving oxide layer, J. Comput. Phys. (2012)</a>. L'objet du post-doc était de mieux comprendre les états pseudo-stationnaires du modèle, d'une part de facon mathématique et d'autre part de facon numérique via l'implémentation dans CALIPSO d'un calcul direct de l'état pseudo-stationnaire. Cette partie a été faite en collaboration avec Claire Chainais-Hillairet. Dans un deuxième temps je le suis interessé au problème évolutif. j'ai implementé dans CALIPSO un schéma numérique de typde BDF2, afin d'ameliorer l'ordre en temps. Avec Claire Chainais Hillairet et Jurgen Fuhrmann nous étudions, dans un travail encore en cours, l'existence de solutions en temps petit pour un modèle de corrosion simplifié. 
+</p>
+<br />
+<p>
+Chainais-Hillairet C., Gallouët T.O. <a href="DPCM.pdf">Study of a pseudo-stationary state for a corrosion model: existence and numerical approximation.</a> 
+</p>    
+<br />
+
+<p>
+<b>Régularité du transport optimal</b><br />
+On se donne une variété riemannienne, deux mesures à densité régulière et un coût de transport, typiquement la distance géodesique au carré. La question est de savoir à quelles conditions le transport optimal d'une densité vers l'autre pour ce coût est également régulier. Cette question est presque résolue dans le cas général grâce au tenseur de Ma-Trudinger-Wang (MTW), dont le signe est relié à la régularité du transport. Il reste une incertitude lorsque le transport optimal peut atteindre un point appartenant à la fois au lieu focal et au cut locus, pour cela il faut étudier le comportement du tenseur au voisinage de ces points, ce qui est l'objet principal de mes recherches. Il existe une autre incertitude sur les liens entre la géometrie des cut locus vus dans les plans tangents et la positivité du tenseur MTW. Sur ce point un <a href="MTWCLNF">article </a> en collaboration avec <a href="http://math.unice.fr/~rifford/">Ludovic Rifford</a> (Laboratoire J.A. Dieudonné, Université de Nice) et <a href="http://www.ma.utexas.edu/users/figalli/">Alessio Figalli</a> (The University of Texas, Austin) est publié. Un deuxième dédié aux surfaces est en préparation. 
+</p>
+<br />
+<p>
+Figalli A., Gallouët T.O. et Rifford L. <a href="MTWCLNF">On the convexity of injectivity domains on nonfocal manifolds.</a>
+</p>
+<a name="rech-MTW"></a>
+<br />
+<p>
+<b>Signe du tenseur de MTW</b><br />
+Dans une première partie de ma thèse, j'ai calculé le signe du tenseur MTW pour des coûts différant de la fonction distance géodésique au carré. Ces travaux ont été faits et publiés dans le même temps par Paul Lee and Robert McCann (<a href="http://arxiv.org/pdf/0908.4460v2.pdf">pdf</a>). Ils sont l'objet d'un chapitre de ma thèse.
+</p>
+<a name="rech-flotgrad"></a>
+<br />
+<p>
+<b>EDP et transport optimal</b><br />
+Un aspect différent du transport optimal est son lien avec les EDP. Certaines EDP peuvent être considérées comme des flots gradients dans l'espace de Wasserstein W_2. C'est le cas de l'équation de Keller-Segel en 2D ainsi que des variations de celle-ci en toutes dimensions. <a href="http://perso.ens-lyon.fr/vincent.calvez/">Vincent Calvez</a> (UMPA, ENS de Lyon) connait bien ces équations et nous travaillons ensemble sur la description du phénomène d'explosion lorsqu'il survient, en commençant par le cas discret. Dans un premier temps nous exhibons des bassins d'attractions dans lesquels l'explosion se produit exactement avec le nombre de particules critiques. Dans un second temps nous decrivons plus précisement le phénomène d'explosion. Ce modèle a également été l'occasion d'implementer un schéma numérique adapté. Nous souhaitons appliquer cette approche à d'autre EDP.  
+</p>
+<br />  
+<p>
+Avec Clément Cancès et Léonard Monsaigeon nous mettons en évidence une formulation flot gradient dans un espace de type Wasserstein pour le modèle dead-oil (écoulement diphasique, incompressible et immiscible dans un milieux poreux). L'objectif de cet approche est double : d'une part nous souhaitons en déduire des outils d'analyse numérique pour des nouveaux schémas numériques developpés au sein de l'ANR Geopor. D'autre part nous souhaitons étendre cette approche à des modèles plus compliqués (trois phases, milieux hétérogènes, fluides compressibles, miscibles). 
+</p>  
+<br />  
+<p>
+Calvez V. et Gallouët T.O. <a href="KS_1D.pdf">Particle approximation of the one dimensional Keller-Segel equation, stability and rigidity of the blow-up.</a>
+</p>
+<p>
+Cancès C., Gallouët T.O., Monsaingeon L. <a href="CLT_CRASS.pdf">The gradient flow structure for incompressible immiscible two-phase flows in porous media.</a> 
+</p>
+<br />
+<p>
+<a href="These_TG_pageweb.pdf">Manuscrit de thèse</a>
+</p>
+<a name="rech-corros"></a>
+<br />
+
+<hr noshade> 
+<br />
+
+<h2>Publications </h2>
+<br />
+<p>
+<b>Acceptées</b>
+</p>
+<br />
+<p>
+<span class="marge">[1] Calvez V., Gallouët T.O. <a href="KS_1D.pdf">Particle approximation of the one dimensional Keller-Segel equation, stability and rigidity of the blow-up.</a>Discrete and Continuous Dynamical Systems - Series A, to appear.<br />
+<span class="marge">[2] Figalli A., Gallouët T.O., Rifford L. <a href="MTWCLNF">On the convexity of injectivity domains on nonfocal manifolds.</a> SIAM Journal on Mathematical Analysis (Vol. 47, Issue 2). <br />
+</p>
+<br />
+<p>
+<b>Soumises</b>
+</p>
+<br />
+<p>
+<span class="marge">[3] Cancès C., Gallouët T.O., Monsaingeon L. <a href="CLT_CRASS.pdf">The gradient flow structure for incompressible immiscible two-phase flows in porous media.</a> <br />
+<span class="marge">[4] Chainais-Hillairet C., Gallouët T.O. <a href="DPCM.pdf"> Study of a pseudo-stationary state for a corrosion model: existence and numerical approximation. </a> <br />   
+</p>
+<br />
+<p>
+<b>Preprint</b>
+</p>
+<br />
+<p>
+<span class="marge">[5] Gallouët T.O. <!--<a href="TL.pdf">  -->Ma-Trudinger-Wang Tensor for Tonelli-Lagrangian cost function.<!--</a</a> --> <br />     
+</p>
+<br />
+<p>
+<b>Thèse</b>
+</p>
+<br />
+<p>
+<span class="marge"><a href="These_TG_pageweb.pdf">Transport Optimal : régularité et applications.</a> <br />
+</p>
+<br />
+
+
+<a name="enseignement"></a>
+<hr noshade> 
+<br />
+
+<h2>Enseignement </h2>
+<br />
+
+<h3>Université Libre de Bruxelles (ULB)</h2>
+<a name="ULB-2013"></a>
+<br />
+
+<p>
+<b>2013/2014</b>
+</p>
+<br />
+<p>
+Complément de mathématiques, MATH-F-214  (BA2/L2 Bio-ingenieur et Chimie)<br />
+<span class="marge">Cours Magistral de 24h. <!-- Voici un commentaire Enseignant : Thomas Gallouët ! #fff; --> <br />
+<span class="marge"><a href="Notes214_TG_2013.pdf">Syllabus/Notes de cours</a><br />
+<span class="marge">Chargés de TD : <a href="http://homepages.ulb.ac.be/~sdendiev/">Sarah Dendievel</a>, Alves Do Nascimento Filho Robson<br />
+<span class="marge"><a href="TD_MATHF214_2013.zip">Feuilles de TD</a><br />
+</p>
+<br />
+
+<h3>ENS de Lyon</h2>
+
+<a name="ens-20112012"></a>
+<br />
+<p>
+<b>2011/2012</b>
+</p>
+<br />
+<p>
+Equations aux Dérivées Partielles (L3)<br />
+<span class="marge">Enseignant : <a href="http://perso.ens-lyon.fr/vincent.calvez/">Vincent Calvez</a><br />
+<span class="marge"><a href="TDs_EDP_L3_2011-2012.zip">Feuilles de TD</a><br />
+</p>
+<br />
+<p>
+Topologie/Calcul différentiel (L3)<br />
+<span class="marge">Enseignant : <a href="http://perso.ens-lyon.fr/laurent.berger/">Laurent Berger</a><br />
+<span class="marge">Co-chargés de TD : <a href="http://www.umpa.ens-lyon.fr/labo.php?login=rozenszt">Sandra Rozensztajn</a>, <a href="http://www.umpa.ens-lyon.fr/labo.php?login=pmercier">Pierre-Adelin Mercier</a>, <a href="http://www.umpa.ens-lyon.fr/labo.php?login=dmonclai">Daniel Monclair</a><br />
+<span class="marge"><a href="http://perso.ens-lyon.fr/laurent.berger/topodiff.php">Page du cours</a><br />
+<span class="marge"><a href="TDs_TopoCalcDiff_L3_2011-2012.zip">Feuilles de TD</a><br />
+</p>
+<br />
+<p>
+Cours de préparation à l'Agrégation : EDP elliptiques<br />
+</p>
+<a name="ens-20102011"></a>
+<br />
+<p>
+<b>2010/2011</b><br />
+</p>
+<br />
+<p>
+Calcul différentiel (L3)<br />
+<span class="marge">Enseignant : <a href="http://www.umpa.ens-lyon.fr/labo.php?login=sikorav">Jean-Claude Sikorav</a><br />
+<span class="marge">Co-chargé de TD : <a href="http://www.umpa.ens-lyon.fr/labo.php?login=pmercier">Pierre-Adelin Mercier</a><br />
+<span class="marge"><a href="TDs_CalculDiff_L3_2010-2011.zip">Feuilles de TD</a><br />
+</p>
+<br />
+<p>
+Préparation à l'oral de l'Agrégation<br />
+</p>
+<a name="ens-20092010"></a>
+<br />
+<p>
+<b>2009/2010</b>
+</p>
+<br />
+<p>
+Topologie (L3)<br />
+<span class="marge">Enseignant : <a href="http://www.umpa.ens-lyon.fr/labo.php?login=sikorav">Jean-Claude Sikorav</a><br />
+<span class="marge">Co-chargé de TD : <a href="http://www.umpa.ens-lyon.fr/labo.php?login=pmercier">Pierre-Adelin Mercier</a>, <a href="http://perso.univ-rennes1.fr/ludovic.marquis/Bienvenue.html">Ludovic Marquis</a><br />
+<span class="marge"><a href="TDs_Topo_L3_2009-2010.zip">Feuilles de TD</a><br />
+</p>
+<br />
+<p>
+Préparation à l'oral de l'Agrégation<br />
+</p>
+<a name="ens-20072008"></a>
+<br />
+<p>
+<b>2007/2008</b><br />
+</p>
+<br />
+<p>
+Analyse complexe (L3)<br />
+<span class="marge">Enseignant : <a href="http://www-fourier.ujf-grenoble.fr/~deraux/">Martin Deraux</a><br />
+<span class="marge">Co-chargée de TD : <a href="http://math.univ-lille1.fr/~blanccen/">Léa Blanc-Centi</a><br />
+<span class="marge"><a href="TDs_AnaC_L3_2007-2008.zip">Feuilles de TD</a><br />
+</p>
+<br />
+
+Les planches de TDs sont issues d'un travail collectif entre les enseignants, les chargés de TD ainsi que les chargés de TD des années précédentes. Les sources latex sont disponibles sur demande.
+<br />
+<br />
+
+</div>
+</div>
+
+<div id="sidebar"> 
+
+<img src="images/ToUMPA.jpeg" alt="matronche" width=240px/>
+
+<h2>Accès rapide .pdf :</h2>
+
+<ul TYPE=square>
+<li><a href="#recherche"><B>Recherche</B></a></li> 
+<ul TYPE=circle>
+<li><a href="DPCM.pdf">Study of a pseudo-stationary state for a corrosion model: existence and numerical approximation</a></li> 
+<li><a href="CLT_CRASS">The gradient flow structure for incompressible immiscible two-phase flows in porous media</a></li>    
+<li><a href="MTWCLNF">Convexité des domaines d'injectivité</a></li> 
+<li><a href="KS_1D.pdf">Keller-Segel 1D</a></li>
+<li><a href="These_TG_pageweb.pdf">Manuscrit de thèse</a></li>
+</ul>
+<li><a href="#enseignement"><B>Enseignement</B></a></li> 
+<ul TYPE=circle>
+	<li><a href="Notes214_TG_2013.pdf">2013/2014 : Complément de mathématiques, MATHF214 </a></li> 
+    <li><a href="TD_MATHF214_2013.zip">2013/2014 : Complément de mathématiques, Exercices </a></li> 
+    <li><a href="TDs_EDP_L3_2011-2012.zip">2011/2012 : EDP </a></li> 
+    <li><a href="TDs_TopoCalcDiff_L3_2011-2012.zip">2011/2012 : Topologie/Calcul Différentiel</a></li> 
+    <li><a href="TDs_CalculDiff_L3_2010-2011.zip">2010/2011 : Calcul Différentiel</a></li> 
+    <li><a href="TDs_Topo_L3_2009-2010.zip">2009/2010 : Topologie</a></li> 
+    <li><a href="TDs_AnaC_L3_2007-2008.zip">2007/2008 : Analyse complexe</a></li>
+    
+</ul>
+</ul>
+
+</div>
+
+
+<div style="clear: both;"> </div>
+
+</div>
+
+<div id="footer">
+<p>
+Design by <a href="http://www.minimalistic-design.com">Minimalistic Design - Free Web Templates</a>
+</p>
+</div>
+
+</div>
+
+		
+</body>
+
+</html>
+
