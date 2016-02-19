@@ -24,9 +24,9 @@
 <h2></h2>
 <div style="float: left; padding: 0px 0px 0px 0px;"> 
 <p>
-Je suis actuellement post-doctorant à l'école polytechnique sous la direction de <a href="http://www.cmls.polytechnique.fr/perso/brenier/">Yann Brenier </a> et <a href="http://quentin.mrgt.fr/">Quentin Mérigot </a>.
+Je suis actuellement post-doctorant au CMLS-Ecole polytechnique sous la direction de <a href="http://www.cmls.polytechnique.fr/perso/brenier/">Yann Brenier </a> et <a href="http://quentin.mrgt.fr/">Quentin Mérigot </a>.
 </a>
-Auparavant j'ai effectué un post-doctorat avec <a href="http://math.univ-lille1.fr/~chainais/Site_de_Claire_Chainais/Accueil.html">Claire Chainais-Hillairet</a> et <a href="http://homepages.ulb.ac.be/~agloria/">Antoine Gloria</a> au sein de l'équipe Mephysto, sur, entre autre, des problèmes de corrosion. La première partie de ce post-doctorat était financé par l'<a href="http://www.andra.fr/">ANDRA</a> et localisé à Inria Lille. La seconde à l'université libre de Bruxelles. J'ai réalisée ma
+Auparavant j'ai effectué un post-doctorat avec <a href="http://math.univ-lille1.fr/~chainais/Site_de_Claire_Chainais/Accueil.html">Claire Chainais-Hillairet</a> et <a href="http://homepages.ulb.ac.be/~agloria/">Antoine Gloria</a> au sein de l'équipe Mephysto sur, entre autre, des problèmes de corrosion. La première partie de ce post-doctorat était financé par l'<a href="http://www.andra.fr/">ANDRA</a> et localisé à Inria Lille. La seconde à l'université libre de Bruxelles. J'ai réalisée ma
 <a href="These_TG_pageweb.pdf">thèse</a> à l'<a href="http://www.umpa.ens-lyon.fr/">UMPA</a> (ENS Lyon) sous la direction de <a href="http://math.univ-lyon1.fr/~villani/">Cédric Villani</a> et avec comme sujet principal le transport optimal. Cliquez <a href="CV_Gallouet.pdf"> ici pour mon C.V.</a>
 </p>
 
@@ -52,27 +52,26 @@ France<br />
 <hr noshade> 
 <br />
 <h2>Recherche</h2>
+
+
+<a name="rech-euler"></a>
+<br />
+<p>
+<b>Euler imcompressible</b><br />
+Avec Quentin Mérigot, nous approchons les solutions régulières d'Euler incompressible par des flots d'EDO à valeurs dans des espaces de dimension finie. Cette approche, <i>à la Brenier,</i> est basée sur l'interprétation d'Arnold de l'équation d'Euler en tant que géodésiques de l'espace des difféomorphismes qui préservent la mesure et le transport optimal semi discret. A notre approche est naturellement associée un schéma numérique que nous implémentons et pour lequel nous montrons également la convergence vers des solutions régulières de l'équation d'Euler incompressible. <br />
+<img src="euler.gif" alt="lagrangianeuler">
+
+</p>
+
 <a name="rech-regularite"></a>
 <br />
-
-<p>
-<b>Corrosion</b><br />
-L'objet de ce post-doctorat était l'étude d'un modèle de corrosion, appelé DPCM, introduit par C. Bataillon, et al. dans <a href="FINAL_dpcm_acta_10.pdf"> Corrosion modelling of iron based alloy in nuclear waste repository, Electrochim. Acta (2010)</a>. La particularité de ce modèle réside dans le couplage entre 
-les espèces présentes, le potentiel electrochimique et le déplacement des interfaces de la couche de corrosion. Le modèle à été introduit dans le cadre de l'étude du stockage des déchets nucléaires en profondeur effectuée par l'<a href="http://www.andra.fr/">ANDRA</a>. Une première étude mathématique ainsi qu'un schéma numérique (dont l'implémentation en FORTRAN est nommé CALIPSO) permettant la résolution de DPCM ont été réalisé par C. Bataillon et al. dans <a href="JCPpublished.pdf"> Numerical methods for the simulation of a corrosion model with moving oxide layer, J. Comput. Phys. (2012)</a>. L'objet du post-doc était de mieux comprendre les états pseudo-stationnaires du modèle, d'une part de facon mathématique et d'autre part de facon numérique via l'implémentation dans CALIPSO d'un calcul direct de l'état pseudo-stationnaire. Cette partie a été faite en collaboration avec Claire Chainais-Hillairet. Dans un deuxième temps je le suis interessé au problème évolutif. j'ai implementé dans CALIPSO un schéma numérique de typde BDF2, afin d'ameliorer l'ordre en temps. Avec Claire Chainais Hillairet et Jurgen Fuhrmann nous étudions, dans un travail encore en cours, l'existence de solutions en temps petit pour un modèle de corrosion simplifié. 
-</p>
-<br />
-<p>
-Chainais-Hillairet C., Gallouët T.O. <a href="DPCM.pdf">Study of a pseudo-stationary state for a corrosion model: existence and numerical approximation.</a> 
-</p>    
-<br />
-
 <p>
 <b>Régularité du transport optimal</b><br />
-On se donne une variété riemannienne, deux mesures à densité régulière et un coût de transport, typiquement la distance géodesique au carré. La question est de savoir à quelles conditions le transport optimal d'une densité vers l'autre pour ce coût est également régulier. Cette question est presque résolue dans le cas général grâce au tenseur de Ma-Trudinger-Wang (MTW), dont le signe est relié à la régularité du transport. Il reste une incertitude lorsque le transport optimal peut atteindre un point appartenant à la fois au lieu focal et au cut locus, pour cela il faut étudier le comportement du tenseur au voisinage de ces points, ce qui est l'objet principal de mes recherches. Il existe une autre incertitude sur les liens entre la géometrie des cut locus vus dans les plans tangents et la positivité du tenseur MTW. Sur ce point un <a href="MTWCLNF">article </a> en collaboration avec <a href="http://math.unice.fr/~rifford/">Ludovic Rifford</a> (Laboratoire J.A. Dieudonné, Université de Nice) et <a href="http://www.ma.utexas.edu/users/figalli/">Alessio Figalli</a> (The University of Texas, Austin) est publié. Un deuxième dédié aux surfaces est en préparation. 
+On se donne une variété riemannienne, deux mesures à densité régulière et un coût de transport, typiquement la distance géodesique au carré. La question est de savoir à quelles conditions le transport optimal d'une densité vers l'autre pour ce coût est également régulier. Cette question est presque résolue dans le cas général grâce au tenseur de Ma-Trudinger-Wang (MTW), dont le signe est relié à la régularité du transport. Il reste une incertitude lorsque le transport optimal peut atteindre un point appartenant à la fois au lieu focal et au cut locus, pour cela il faut étudier le comportement du tenseur au voisinage de ces points. Il existe une autre incertitude sur les liens entre la géometrie des cut locus vus dans les plans tangents et la positivité du tenseur MTW. Sur ce point un <a href="MTWCLNF">article </a> en collaboration avec <a href="http://math.unice.fr/~rifford/">Ludovic Rifford</a> (Laboratoire J.A. Dieudonné, Université de Nice) et <a href="http://www.ma.utexas.edu/users/figalli/">Alessio Figalli</a> (The University of Texas, Austin) est publié. Deux autre, dédiés aux surfaces et au cas ou le tenseur est strictement minoré, sont en préparation. 
 </p>
 <br />
 <p>
-Figalli A., Gallouët T.O. et Rifford L. <a href="MTWCLNF">On the convexity of injectivity domains on nonfocal manifolds.</a>
+Figalli A., Gallouët T.O. et Rifford L. <a href="MTWCLNF.pdf">On the convexity of injectivity domains on nonfocal manifolds.</a>
 </p>
 <a name="rech-MTW"></a>
 <br />
@@ -84,7 +83,7 @@ Dans une première partie de ma thèse, j'ai calculé le signe du tenseur MTW po
 <br />
 <p>
 <b>EDP et transport optimal</b><br />
-Un aspect différent du transport optimal est son lien avec les EDP. Certaines EDP peuvent être considérées comme des flots gradients dans l'espace de Wasserstein W_2. C'est le cas de l'équation de Keller-Segel en 2D ainsi que des variations de celle-ci en toutes dimensions. <a href="http://perso.ens-lyon.fr/vincent.calvez/">Vincent Calvez</a> (UMPA, ENS de Lyon) connait bien ces équations et nous travaillons ensemble sur la description du phénomène d'explosion lorsqu'il survient, en commençant par le cas discret. Dans un premier temps nous exhibons des bassins d'attractions dans lesquels l'explosion se produit exactement avec le nombre de particules critiques. Dans un second temps nous decrivons plus précisement le phénomène d'explosion. Ce modèle a également été l'occasion d'implementer un schéma numérique adapté. Nous souhaitons appliquer cette approche à d'autre EDP.  
+Un aspect différent du transport optimal est son lien avec les EDP. Certaines EDP peuvent être considérées comme des flots gradients dans l'espace de Wasserstein W_2 (MK_2). C'est le cas de l'équation de Keller-Segel en 2D ainsi que des variations de celle-ci en toutes dimensions. <a href="http://perso.ens-lyon.fr/vincent.calvez/">Vincent Calvez</a> (UMPA, ENS de Lyon) connait bien ces équations et nous travaillons ensemble sur la description du phénomène d'explosion lorsqu'il survient, en commençant par le cas discret. Dans un premier temps nous exhibons des bassins d'attractions dans lesquels l'explosion se produit exactement avec le nombre de particules critiques. Dans un second temps nous decrivons plus précisement le phénomène d'explosion. Ce modèle a également été l'occasion d'implementer un schéma numérique adapté. Nous avons ensuite appliqué cette approche à d'autres EDP d'advection-diffusion homogène.  
 </p>
 <br />  
 <p>
@@ -92,17 +91,39 @@ Avec Clément Cancès et Léonard Monsaigeon nous mettons en évidence une formu
 </p>  
 <br />  
 <p>
+En collaboration avec Léonard Monsaigeon nous avons étudié des schémas de type minimizing movement scheme/JKO pour la métrique de Kantorovich-Fisher-Rao.  
+
+</p>  
+<br />  
+<p>
 Calvez V. et Gallouët T.O. <a href="KS_1D.pdf">Particle approximation of the one dimensional Keller-Segel equation, stability and rigidity of the blow-up.</a>
+</p>
+<p>
+Calvez V., Gallouët T.O. <a href="PBU.pdf">Blow-up phenomena for the gradient flow of homogenous reaction-diffusion functional.</a>
 </p>
 <p>
 Cancès C., Gallouët T.O., Monsaingeon L. <a href="CLT_CRASS.pdf">The gradient flow structure for incompressible immiscible two-phase flows in porous media.</a> 
 </p>
+<p>
+Gallouët T.O., Monsaingeon L. <a href="JKOKFR.pdf">A JKO splitting scheme for Kantorovich-Fisher-Rao gradient flows.</a> 
+</p>
+
+<br />
+<a name="rech-corros"></a>
+<br />
+<p>
+<b>Corrosion</b><br />
+L'objet du post-doctorat à Inria Lille était l'étude d'un modèle de corrosion, appelé DPCM, introduit par C. Bataillon, et al. dans <a href="FINAL_dpcm_acta_10.pdf"> Corrosion modelling of iron based alloy in nuclear waste repository, Electrochim. Acta (2010)</a>. La particularité de ce modèle réside dans le couplage entre 
+les espèces présentes, le potentiel electrochimique et le déplacement des interfaces de la couche de corrosion. Le modèle à été introduit dans le cadre de l'étude du stockage des déchets nucléaires en profondeur effectuée par l'<a href="http://www.andra.fr/">ANDRA</a>. Une première étude mathématique ainsi qu'un schéma numérique (dont l'implémentation en FORTRAN est nommé CALIPSO) permettant la résolution de DPCM ont été réalisé par C. Bataillon et al. dans <a href="JCPpublished.pdf"> Numerical methods for the simulation of a corrosion model with moving oxide layer, J. Comput. Phys. (2012)</a>. L'objet du post-doc était de mieux comprendre les états pseudo-stationnaires du modèle, d'une part de facon mathématique et d'autre part de facon numérique via l'implémentation dans CALIPSO d'un calcul direct de l'état pseudo-stationnaire. Cette partie a été faite en collaboration avec Claire Chainais-Hillairet. Dans un deuxième temps je le suis interessé au problème évolutif. j'ai implementé dans CALIPSO un schéma numérique de typde BDF2, afin d'ameliorer l'ordre en temps. Avec Claire Chainais Hillairet et Jurgen Fuhrmann nous étudions, dans un travail encore en cours, l'existence de solutions en temps petit pour un modèle de corrosion simplifié. 
+</p>
+<br />
+<p>
+Chainais-Hillairet C., Gallouët T.O. <a href="DPCM.pdf">Study of a pseudo-stationary state for a corrosion model : existence and numerical approximation.</a>  
+</p>    
 <br />
 <p>
 <a href="These_TG_pageweb.pdf">Manuscrit de thèse</a>
 </p>
-<a name="rech-corros"></a>
-<br />
 
 <hr noshade> 
 <br />
@@ -114,25 +135,28 @@ Cancès C., Gallouët T.O., Monsaingeon L. <a href="CLT_CRASS.pdf">The gradient 
 </p>
 <br />
 <p>
-<span class="marge">[1] Calvez V., Gallouët T.O. <a href="KS_1D.pdf">Particle approximation of the one dimensional Keller-Segel equation, stability and rigidity of the blow-up.</a>Discrete and Continuous Dynamical Systems - Series A, to appear.<br />
-<span class="marge">[2] Figalli A., Gallouët T.O., Rifford L. <a href="MTWCLNF">On the convexity of injectivity domains on nonfocal manifolds.</a> SIAM Journal on Mathematical Analysis (Vol. 47, Issue 2). <br />
+<span class="marge">[1] Calvez V., Gallouët T.O. <a href="KS_1D.pdf">Particle approximation of the one dimensional Keller-Segel equation, stability and rigidity of the blow-up.</a>Discrete and Continuous Dynamical Systems - Series A.
+	<br />
+	
+<span class="marge">[2] Figalli A., Gallouët T.O., Rifford L. <a href="MTWCLNF.pdf">On the convexity of injectivity domains on nonfocal manifolds.</a> SIAM Journal on Mathematical Analysis (Vol. 47, Issue 2). 
+	<br />
+	
+<span class="marge">[3] Cancès C., Gallouët T.O., Monsaingeon L. <a href="CLT_CRASS.pdf">The gradient flow structure for incompressible immiscible two-phase flows in porous media. </a>C. R. Acad. Sci. Paris, Ser. I(353) :985– 989, 2015.
+	 <br />
+<span class="marge">[4] Chainais-Hillairet C., Gallouët T.O. <a href="DPCM.pdf"> Study of a pseudo-stationary state for a corrosion model: existence and numerical approximation. </a>Nonlinear Analysis: Real World Applications  (2016), pp. 38-56. 
+	<br />   	
 </p>
 <br />
 <p>
-<b>Soumises</b>
+<b>Soumises, preprint</b>
 </p>
 <br />
 <p>
-<span class="marge">[3] Cancès C., Gallouët T.O., Monsaingeon L. <a href="CLT_CRASS.pdf">The gradient flow structure for incompressible immiscible two-phase flows in porous media.</a> <br />
-<span class="marge">[4] Chainais-Hillairet C., Gallouët T.O. <a href="DPCM.pdf"> Study of a pseudo-stationary state for a corrosion model: existence and numerical approximation. </a> <br />   
-</p>
-<br />
-<p>
-<b>Preprint</b>
-</p>
-<br />
-<p>
-<span class="marge">[5] Gallouët T.O. <!--<a href="TL.pdf">  -->Ma-Trudinger-Wang Tensor for Tonelli-Lagrangian cost function.<!--</a</a> --> <br />     
+<span class="marge">[5] Gallouët T.O., Monsaingeon L. <a href="PBU.pdf">A JKO splitting scheme for Kantorovich-Fisher-Rao gradient flows. </a>
+	<br />  
+	
+	<span class="marge">[6] Calvez V., Gallouët T.O. <a href="JKOKFR.pdf">Blow-up phenomena for the gradient flow of homogenous reaction-diffusion functional. </a>
+	<br />
 </p>
 <br />
 <p>
@@ -256,10 +280,12 @@ Les planches de TDs sont issues d'un travail collectif entre les enseignants, le
 <ul TYPE=square>
 <li><a href="#recherche"><B>Recherche</B></a></li> 
 <ul TYPE=circle>
-<li><a href="DPCM.pdf">Study of a pseudo-stationary state for a corrosion model: existence and numerical approximation</a></li> 
-<li><a href="CLT_CRASS">The gradient flow structure for incompressible immiscible two-phase flows in porous media</a></li>    
-<li><a href="MTWCLNF">Convexité des domaines d'injectivité</a></li> 
+<li><a href="MTWCLNF.pdf">Convexité des domaines d'injectivité</a></li> 
 <li><a href="KS_1D.pdf">Keller-Segel 1D</a></li>
+<li><a href="PBU.pdf">Advection-Diffusion homogeneous</a></li>
+<li><a href="CLT_CRASS.pdf">Gradient flow for porous media</a></li> 
+<li><a href="PBU.pdf">JKO splitting for KFR</a></li> 
+<li><a href="DPCM.pdf">Pseudo-stationary-corrosion </a></li>
 <li><a href="These_TG_pageweb.pdf">Manuscrit de thèse</a></li>
 </ul>
 <li><a href="#enseignement"><B>Enseignement</B></a></li> 
