@@ -1,0 +1,18 @@
+#sidebar ul {
+    padding: 10px 0 5px 20px;
+}
+
+#sidebar ul li {   
+}
+
+#sidebar ul {
+padding: 10px 0 5px 20px;
+}
+
+#sidebar ul li {
+    background: url(images/bullet.jpg) no-repeat center left;
+    padding: 2px 0 2px 22px;
+}
+
+
+#sidebar ul li a { font-size: 13px; }
